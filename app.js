@@ -8,7 +8,7 @@ function pesquisar() {
 
     // Verifica se o campo de pesquisa está vazio. Se estiver, exibe uma mensagem de erro e retorna.
     if (!campoPesquisa) {
-        section.innerHTML = "<p class='mensagem-erro'>Nada foi encontrado, digite o nome do time ou de alguma player do  time.</p>";
+        section.innerHTML = "<p class='mensagem-erro'>Nada foi encontrado, digite o nome do time ou de alguma player do time.</p>";
         return;
     }
 
