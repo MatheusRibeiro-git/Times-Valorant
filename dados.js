@@ -16,6 +16,14 @@ let dados = [
         jogadores: 'Askia Dgzin GuhRVN pancc raafa'
     },
     {
+        titulo: 'MIBR',
+        descricao: 'A MIBR, um dos maiores nomes dos esports brasileiros, marcou sua presença de forma significativa no cenário competitivo de Valorant. Com uma história rica em conquistas em outros jogos, a organização trouxe para o Valorant a mesma paixão, profissionalismo e garra que a caracterizam. A equipe brasileira tem se destacado nos principais campeonatos, representando o país com orgulho e conquistando a torcida. Com uma base de fãs apaixonada, a MIBR se tornou um dos principais times a serem observados nas competições de Valorant. Tendo como seus players: artzin, mazin, liazzi, Palla e rich.',
+        link: 'https://liquipedia.net/valorant/MIBR',
+        imagem: 'logo-times/mibr.png',
+        instagram: 'https://www.instagram.com/mibrteam/',
+        jogadores: 'artzin mazin liazzi Palla rich'
+    },
+    {
         titulo: 'Sentinels',
         descricao: 'Os Sentinels são uma das organizações mais populares e bem-sucedidas do cenário competitivo de VALORANT. Os Sentinels já conquistaram diversos títulos importantes, como o VALORANT Champions, e são considerados uma das equipes mais consistentes do mundo. A equipe conta com jogadores renomados e experientes, que já demonstraram seu talento em outros jogos. Os Sentinels são conhecidos por seu estilo de jogo estratégico e bem organizado, com jogadores que se comunicam de forma eficiente. Tendo como seus players: Zekken, Sacy, TenZ, Johnqt, Zellsis',
         link: 'https://liquipedia.net/valorant/Sentinels',
