@@ -4,7 +4,7 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-color: #290000; /* Cor de fundo da página */
+    background-color: #3d0000; /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -57,6 +57,17 @@ section button {
 section button:hover {
     background-color: #000000; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+}
+
+.logo-principal {
+    text-align: center; /* Centraliza a logo */
+    margin-bottom: 5px; /* Adiciona um espaço abaixo da logo */
+    
+}
+
+.logo-principal img {
+    max-width: 17%; /* Ajusta o tamanho da imagem para telas menores */
+    height: auto;
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
@@ -120,10 +131,21 @@ section button:hover {
     object-fit: cover; /* Mantém a proporção da imagem e preenche o container */
   }
 
+  .redes-sociais {
+    text-align: center;
+    margin-top: 0.5px;
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #1a0000; /* Cor de fundo do rodapé */
-    color: #ffffff; /* Cor do texto */
+    background-color: #fdaeae; /* Cor de fundo do rodapé */
+    color: #000000; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
