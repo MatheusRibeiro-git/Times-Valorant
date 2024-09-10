@@ -62,7 +62,11 @@ section button:hover {
 .logo-principal {
     text-align: center; /* Centraliza a logo */
     margin-bottom: 5px; /* Adiciona um espaço abaixo da logo */
-    
+    position: fixed;
+    top: -30px; /* Ajuste a distância do topo da página */
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+    object-fit: cover; /* Mantém a proporção da imagem e preenche o container */
 }
 
 .logo-principal img {
@@ -125,11 +129,6 @@ section button:hover {
     color: rgb(255, 255, 255);
 }
 
-.logo-imagem {
-    width: 150px; /* Ajuste o valor para o tamanho desejado */
-    height: 150px; /* Ajuste o valor para o tamanho desejado */
-    object-fit: cover; /* Mantém a proporção da imagem e preenche o container */
-  }
 
   .redes-sociais {
     text-align: center;
@@ -152,6 +151,12 @@ footer {
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
+    position: fixed;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -159,6 +164,10 @@ footer {
         font-size: 2rem; /* Tamanho da fonte em telas menores */
         letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
     }
+
+    .container {
+        width: 90%;
+      }
 
     section input {
         width: 25rem; /* Largura dos inputs em telas menores */
@@ -205,3 +214,4 @@ footer {
         font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
 }
+
